@@ -42,7 +42,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Exporter;
 
@@ -71,9 +71,8 @@ you want to specify your own keypad or modify the rules:
   open $fh, 'mykeypad.yml';
   $obj = Acme::Mobile::Thurblings->new($fh, \%rules );
 
-The rule file is in L<YAML|http://www.yaml.org> format that specifies
-the characters for each key pressed (in the order that they occur for
-each key press).
+The rule file is in L<YAML> format that specifies the characters for
+each key pressed (in the order that they occur for each key press).
 
 The optional rules allow one to change the behavior of the counting
 function:
@@ -260,6 +259,10 @@ Copyright (C) 2004-2005 by Robert Rothenberg.  All Rights Reserved.
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.3 or,
 at your option, any later version of Perl 5 you may have available.
+
+=head1 SEE ALSO
+
+This module is similar to L<Device::KeyStroke::Mobile>.
 
 =cut
 

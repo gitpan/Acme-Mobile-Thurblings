@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Acme-Mobile-Thurblings
-version: 0.02
+version: 0.03
 author:
   - Robert Rothenberg <rrwo at cpan.org>
 abstract: count keystrokes to write mobile text messages
@@ -15,5 +15,5 @@ build_requires:
 provides:
   Acme::Mobile::Thurblings:
     file: lib/Acme/Mobile/Thurblings.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2607

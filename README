@@ -27,16 +27,11 @@ DESCRIPTION
     See the module POD for more details.
 
 REVISION HISTORY
-    The following changes have been made since v0.01:
+    The following changes have been made since v0.02:
 
-    0.02  Sun Jan  2 20:07:00 2005
-	- added more tests
-	- added option for NO_SHIFT
-	- updated documentation
-	- added ability to change options in constructor
-	- added option for NO_SENTENCE_CAPS
-	- added case flag to count function
-	- added debug flag to count function
+    0.03  Wed Jan  5 2005
+	- corrections to POD
+	- added SEE ALSO section for similar module
 
     See the Changes file included with the distribution for a more
     comprehensive history.
@@ -50,4 +45,7 @@ COPYRIGHT AND LICENSE
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself, either Perl version 5.8.3 or, at
     your option, any later version of Perl 5 you may have available.
+
+SEE ALSO
+    This module is similar to Device::KeyStroke::Mobile.
 
