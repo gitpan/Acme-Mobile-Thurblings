@@ -1,5 +1,14 @@
 Revision history for Perl extension Acme::Mobile::Thurblings.
 
+0.02  Sun Jan  2 20:07:00 2005
+	- added more tests
+	- added option for NO_SHIFT
+	- updated documentation
+	- added ability to change options in constructor
+	- added option for NO_SENTENCE_CAPS
+	- added case flag to count function
+	- added debug flag to count function
+
 0.01  Fri Dec 31 14:10:24 2004
 	- original version; created by h2xs 1.23 with options
 		-n Acme::Mobile::Thurblings -v 0.01 -X -P -b 5.6.0

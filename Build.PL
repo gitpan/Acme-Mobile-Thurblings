@@ -12,6 +12,7 @@ my $build = Module::Build->new
      recommends => {
      },
      build_requires => {
+       'IO::File'                   => 0,
        'Test::More'                 => 0,
      },
      create_makefile_pl => 'traditional',

@@ -6,6 +6,7 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Acme/Mobile/Thurblings.pm',
           'PREREQ_PM' => {
                            'Carp' => '0',
+                           'IO::File' => '0',
                            'Test::More' => '0',
                            'YAML' => '0.35'
                          },
