@@ -1,0 +1,31 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.44.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 f0235abce5db6abb17d79ee776df8daffb9a7add Build.PL
+SHA1 21b8045190add0d083bdc3acaf846e439bf4c6e3 Changes
+SHA1 933b6700e631c8410a42aed6b8fab4c5b9c69037 MANIFEST
+SHA1 1773574e878fc919678eee3b1dc70c314efa507f META.yml
+SHA1 1b113a788b7dc59dbf1ca39e41fd387bc2940b58 Makefile.PL
+SHA1 9ae5d026379fa5076ccbcdb229d5594914b7e9be README
+SHA1 6e08d8bffeab0bac1d1286fd4b069043848d850a lib/Acme/Mobile/Thurblings.pm
+SHA1 728f967108cd7c8a65ad04a986d0f4f8fd84ab2a t/Acme-Mobile-Thurblings.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.5 (MingW32)
+
+iD8DBQFB1WzlV485gMKcmRARAlMgAJ9RUJ8ZMSSbolba0U27yba0FyaoIACffia4
+iSVgZXlFsRkqcn0mVBDuupI=
+=x5+d
+-----END PGP SIGNATURE-----

@@ -1,0 +1,38 @@
+NAME
+    Acme::Mobile::Thurblings - count keystrokes to write mobile text
+    messages
+
+SYNOPSIS
+      use Acme::Mobile::Thurblings;
+
+      $thurbs = count_thurblings("See u l8r");
+
+      # $thurbs == 23
+  
+DESCRIPTION
+    This module counts the number of *thurblings* used to write mobile text
+    messages. A thurbling is unit used to measure the number of actions (in
+    this case keypresses or pauses) for people who like to optimize
+    industrial processes.
+
+    So you can use this module to determine useless facts such as that it
+    takes as many keypresses to write "later" or "great" as it does "l8r"
+    and "gr8".
+
+    I have no idea if a "thurbling" is a real unit of measurement or just
+    the figment of a former employer's imagination. (Internet searches for
+    the term were fruitless.) But since this is an Acme module, it doesn't
+    matter much.
+
+    See the module POD for more details.
+
+AUTHOR
+    Robert Rothenberg <rrwo at cpan.org>
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2004 by Robert Rothenberg. All Rights Reserved.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.3 or, at
+    your option, any later version of Perl 5 you may have available.
+
